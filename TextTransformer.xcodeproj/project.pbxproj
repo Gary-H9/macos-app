@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4825A5327F87BF5001D16BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4825A5227F87BF5001D16BE /* AppDelegate.swift */; };
+		D4825A5527F87BF5001D16BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4825A5427F87BF5001D16BE /* ViewController.swift */; };
+		D4825A5727F87BFE001D16BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4825A5627F87BFE001D16BE /* Assets.xcassets */; };
+		D4825A5A27F87BFE001D16BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4825A5827F87BFE001D16BE /* Main.storyboard */; };
+		D4825A6627F87BFF001D16BE /* TextTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4825A6527F87BFF001D16BE /* TextTransformerTests.swift */; };
+		D4825A7127F87BFF001D16BE /* TextTransformerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4825A7027F87BFF001D16BE /* TextTransformerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4825A6227F87BFF001D16BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4825A4727F87BF5001D16BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4825A4E27F87BF5001D16BE;
+			remoteInfo = TextTransformer;
+		};
+		D4825A6D27F87BFF001D16BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4825A4727F87BF5001D16BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4825A4E27F87BF5001D16BE;
+			remoteInfo = TextTransformer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4825A4F27F87BF5001D16BE /* TextTransformer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextTransformer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4825A5227F87BF5001D16BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4825A5427F87BF5001D16BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4825A5627F87BFE001D16BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4825A5927F87BFE001D16BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4825A5B27F87BFE001D16BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4825A5C27F87BFE001D16BE /* TextTransformer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextTransformer.entitlements; sourceTree = "<group>"; };
+		D4825A6127F87BFF001D16BE /* TextTransformerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextTransformerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4825A6527F87BFF001D16BE /* TextTransformerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTransformerTests.swift; sourceTree = "<group>"; };
+		D4825A6727F87BFF001D16BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4825A6C27F87BFF001D16BE /* TextTransformerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextTransformerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4825A7027F87BFF001D16BE /* TextTransformerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTransformerUITests.swift; sourceTree = "<group>"; };
+		D4825A7227F87BFF001D16BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4825A4C27F87BF5001D16BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4825A5E27F87BFF001D16BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4825A6927F87BFF001D16BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4825A4627F87BF5001D16BE = {
+			isa = PBXGroup;
+			children = (
+				D4825A5127F87BF5001D16BE /* TextTransformer */,
+				D4825A6427F87BFF001D16BE /* TextTransformerTests */,
+				D4825A6F27F87BFF001D16BE /* TextTransformerUITests */,
+				D4825A5027F87BF5001D16BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4825A5027F87BF5001D16BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4825A4F27F87BF5001D16BE /* TextTransformer.app */,
+				D4825A6127F87BFF001D16BE /* TextTransformerTests.xctest */,
+				D4825A6C27F87BFF001D16BE /* TextTransformerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4825A5127F87BF5001D16BE /* TextTransformer */ = {
+			isa = PBXGroup;
+			children = (
+				D4825A5227F87BF5001D16BE /* AppDelegate.swift */,
+				D4825A5427F87BF5001D16BE /* ViewController.swift */,
+				D4825A5627F87BFE001D16BE /* Assets.xcassets */,
+				D4825A5827F87BFE001D16BE /* Main.storyboard */,
+				D4825A5B27F87BFE001D16BE /* Info.plist */,
+				D4825A5C27F87BFE001D16BE /* TextTransformer.entitlements */,
+			);
+			path = TextTransformer;
+			sourceTree = "<group>";
+		};
+		D4825A6427F87BFF001D16BE /* TextTransformerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4825A6527F87BFF001D16BE /* TextTransformerTests.swift */,
+				D4825A6727F87BFF001D16BE /* Info.plist */,
+			);
+			path = TextTransformerTests;
+			sourceTree = "<group>";
+		};
+		D4825A6F27F87BFF001D16BE /* TextTransformerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4825A7027F87BFF001D16BE /* TextTransformerUITests.swift */,
+				D4825A7227F87BFF001D16BE /* Info.plist */,
+			);
+			path = TextTransformerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4825A4E27F87BF5001D16BE /* TextTransformer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4825A7527F87BFF001D16BE /* Build configuration list for PBXNativeTarget "TextTransformer" */;
+			buildPhases = (
+				D4825A4B27F87BF5001D16BE /* Sources */,
+				D4825A4C27F87BF5001D16BE /* Frameworks */,
+				D4825A4D27F87BF5001D16BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextTransformer;
+			productName = TextTransformer;
+			productReference = D4825A4F27F87BF5001D16BE /* TextTransformer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4825A6027F87BFF001D16BE /* TextTransformerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4825A7827F87BFF001D16BE /* Build configuration list for PBXNativeTarget "TextTransformerTests" */;
+			buildPhases = (
+				D4825A5D27F87BFF001D16BE /* Sources */,
+				D4825A5E27F87BFF001D16BE /* Frameworks */,
+				D4825A5F27F87BFF001D16BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4825A6327F87BFF001D16BE /* PBXTargetDependency */,
+			);
+			name = TextTransformerTests;
+			productName = TextTransformerTests;
+			productReference = D4825A6127F87BFF001D16BE /* TextTransformerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4825A6B27F87BFF001D16BE /* TextTransformerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4825A7B27F87BFF001D16BE /* Build configuration list for PBXNativeTarget "TextTransformerUITests" */;
+			buildPhases = (
+				D4825A6827F87BFF001D16BE /* Sources */,
+				D4825A6927F87BFF001D16BE /* Frameworks */,
+				D4825A6A27F87BFF001D16BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4825A6E27F87BFF001D16BE /* PBXTargetDependency */,
+			);
+			name = TextTransformerUITests;
+			productName = TextTransformerUITests;
+			productReference = D4825A6C27F87BFF001D16BE /* TextTransformerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4825A4727F87BF5001D16BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D4825A4E27F87BF5001D16BE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D4825A6027F87BFF001D16BE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D4825A4E27F87BF5001D16BE;
+					};
+					D4825A6B27F87BFF001D16BE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D4825A4E27F87BF5001D16BE;
+					};
+				};
+			};
+			buildConfigurationList = D4825A4A27F87BF5001D16BE /* Build configuration list for PBXProject "TextTransformer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4825A4627F87BF5001D16BE;
+			productRefGroup = D4825A5027F87BF5001D16BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4825A4E27F87BF5001D16BE /* TextTransformer */,
+				D4825A6027F87BFF001D16BE /* TextTransformerTests */,
+				D4825A6B27F87BFF001D16BE /* TextTransformerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4825A4D27F87BF5001D16BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4825A5727F87BFE001D16BE /* Assets.xcassets in Resources */,
+				D4825A5A27F87BFE001D16BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4825A5F27F87BFF001D16BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4825A6A27F87BFF001D16BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4825A4B27F87BF5001D16BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4825A5527F87BF5001D16BE /* ViewController.swift in Sources */,
+				D4825A5327F87BF5001D16BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4825A5D27F87BFF001D16BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4825A6627F87BFF001D16BE /* TextTransformerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4825A6827F87BFF001D16BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4825A7127F87BFF001D16BE /* TextTransformerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4825A6327F87BFF001D16BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4825A4E27F87BF5001D16BE /* TextTransformer */;
+			targetProxy = D4825A6227F87BFF001D16BE /* PBXContainerItemProxy */;
+		};
+		D4825A6E27F87BFF001D16BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4825A4E27F87BF5001D16BE /* TextTransformer */;
+			targetProxy = D4825A6D27F87BFF001D16BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4825A5827F87BFE001D16BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4825A5927F87BFE001D16BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4825A7327F87BFF001D16BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4825A7427F87BFF001D16BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D4825A7627F87BFF001D16BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TextTransformer/TextTransformer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextTransformer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GH445.TextTransformer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D4825A7727F87BFF001D16BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TextTransformer/TextTransformer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextTransformer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GH445.TextTransformer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D4825A7927F87BFF001D16BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextTransformerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = GH445.TextTransformerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextTransformer.app/Contents/MacOS/TextTransformer";
+			};
+			name = Debug;
+		};
+		D4825A7A27F87BFF001D16BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextTransformerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = GH445.TextTransformerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextTransformer.app/Contents/MacOS/TextTransformer";
+			};
+			name = Release;
+		};
+		D4825A7C27F87BFF001D16BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextTransformerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GH445.TextTransformerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TextTransformer;
+			};
+			name = Debug;
+		};
+		D4825A7D27F87BFF001D16BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextTransformerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GH445.TextTransformerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TextTransformer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4825A4A27F87BF5001D16BE /* Build configuration list for PBXProject "TextTransformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4825A7327F87BFF001D16BE /* Debug */,
+				D4825A7427F87BFF001D16BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4825A7527F87BFF001D16BE /* Build configuration list for PBXNativeTarget "TextTransformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4825A7627F87BFF001D16BE /* Debug */,
+				D4825A7727F87BFF001D16BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4825A7827F87BFF001D16BE /* Build configuration list for PBXNativeTarget "TextTransformerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4825A7927F87BFF001D16BE /* Debug */,
+				D4825A7A27F87BFF001D16BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4825A7B27F87BFF001D16BE /* Build configuration list for PBXNativeTarget "TextTransformerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4825A7C27F87BFF001D16BE /* Debug */,
+				D4825A7D27F87BFF001D16BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4825A4727F87BF5001D16BE /* Project object */;
+}
